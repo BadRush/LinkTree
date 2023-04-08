@@ -11,7 +11,8 @@
     background-image: url(/res/images/bg-1.jpg);
     background-position: center;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
+    
 }
 
 .profile {
@@ -20,20 +21,27 @@
     align-items: center;
     justify-content: center;
     padding: 24px;
+    
+    
 }
 .profile>img {
+    align-items: center;
     width: 160px;
-    border: 3px solid #333;
+    height: 160px;
+    border: 3px solid #5a5a5a;
     border-radius: 100%;
+    box-shadow:7px 7px 6px #636363;
+
 }
 .profile>p {
-    margin-top: 10px;
+    margin-top: 18px;
     color: #333;
     font-size: 1.2em;
-    /* font-weight: 600; */
     letter-spacing: 2px;
     text-transform: capitalize;
     text-align: center;
+    text-shadow: 2px 2px 5px #636262;
+    
 }
 
 /* btn */
@@ -41,31 +49,42 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* padding: 10px; */
+    padding: 10px;
 }
+
 .baten>a {
     text-decoration: none;
     color: cornsilk;
     font-size: 20px;
-    border: 3-x solid #222;
+    border: 3-x solid #333;
     border-radius: 7px;
-    background-color: rgb(121, 143, 142);
-    margin: 5px;
+    background-color: rgb(127, 152, 151);
+    margin: 6px;
     padding: 10px;
     text-align: center;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    /* font-weight: 700; */
-}
+    box-shadow:4px 3px 6px #636262;
+    text-shadow: 2px 2px 5px #2a2929;
+
+} 
+
+
 .baten>a:hover {
-    background-color: #636262;
-    animation: ease-in-out;
+    background-color: rgb(128, 160, 158);
+    box-shadow:6px 6px 6px  #5a5a5a;
+    animation-duration: 0.3s;
+    animation: infinite;
+
 }
 
 footer {
     text-align: center;
-    padding: 24px;
+    margin-top: 24px;
 }
 footer>i {
+    font-family: "Comic Sans MS", cursive, sans-serif;
     color: coral;
-    font-size: 14px;
+    font-size: 12px;
 }
+
